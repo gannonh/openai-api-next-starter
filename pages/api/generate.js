@@ -15,8 +15,7 @@ export default async function (req, res) {
   res.status(200).json({ result: completion.data.choices[0].text });
 }
 
-function generatePrompt(animal) {
-  const capitalizedAnimal = animal;
+function generatePrompt(productName) {
   return `Product name: KRK ROKIT 5 G4 5 inch Powered Studio Monitors
   Review:
   ## KRK ROKIT 5 G4 5 inch Powered Studio Monitors
@@ -56,7 +55,7 @@ function generatePrompt(animal) {
   
   <ProductLinks gcUrl="" amzUrl="" />
   
-  Product name: ${capitalizedAnimal}
+  Product name: ${productName}
   Review:`;
 }
 
