@@ -50,4 +50,4 @@ You should now be able to access the app at [http://localhost:3000](http://local
 
 I've run this successfully on Vercel and I'd recommend them for any Next.js (they invented Next and their DX is the best!)
 
-Included in the repo is a vercel.json file. You need this to set a higher serverless function timeout since the Open AI PI takes about 20=30 seconds to compute. Please note that Hobby accounts with always timeout at 10s so you need to upgrade to a pro account for this to work. Totally worth it.
+Included in the repo is a vercel.json file. You need this to set a higher serverless function timeout since the Open AI API takes about 20-30 seconds to compute. Please note that Hobby accounts will always timeout at 10s so you need to upgrade to a pro account for this to work. Totally worth it.
