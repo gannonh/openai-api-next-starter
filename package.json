@@ -1,0 +1,29 @@
+{
+  "name": "openai-gpt3-node-starter",
+  "version": "1.0.0",
+  "author": "Gannon Hall",
+  "license": "MIT",
+  "private": false,
+  "description": "OpenAI GPT-3 Node Starter Project",
+
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "highlight.js": "^11.7.0",
+    "next": "^12.1.6",
+    "openai": "^3.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  }
+}
