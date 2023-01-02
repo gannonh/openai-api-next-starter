@@ -1,11 +1,10 @@
 {
-  "name": "openai-gpt3-node-starter",
+  "name": "astrolabs",
   "version": "1.0.0",
   "author": "Gannon Hall",
-  "license": "MIT",
-  "private": false,
-  "description": "OpenAI GPT-3 Node Starter Project",
-
+  "license": "Commercial",
+  "private": true,
+  "description": "OpenAI API stuff",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,10 +12,10 @@
   },
   "dependencies": {
     "highlight.js": "^11.7.0",
-    "next": "^12.1.6",
+    "next": "^13.1.1",
     "openai": "^3.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",

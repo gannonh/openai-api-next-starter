@@ -8,14 +8,14 @@ const openai = new OpenAIApi(configuration);
 export default async function (req, res) {
   const completion = await openai.createCompletion({
     model: "text-davinci-003",
-    prompt: generatePrompt(req.body.animal),
+    prompt: reviewPrompt(req.body.product),
     max_tokens: 2000,
     temperature: 0.6,
   });
   res.status(200).json({ result: completion.data.choices[0].text });
 }
 
-function generatePrompt(productName) {
+function reviewPrompt(productName) {
   return `Product name: KRK ROKIT 5 G4 5 inch Powered Studio Monitors
   Review:
   ## KRK ROKIT 5 G4 5 inch Powered Studio Monitors
