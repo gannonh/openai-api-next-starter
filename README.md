@@ -1,6 +1,6 @@
 # OpenAI API - Next.js Starter Project
 
-This is a Javascript starter project for using the Open AI API to build a Node app.
+This is a Typescript starter project for using the Open AI API to build a Node app.
 
 In this example app, you enter the name of a product and it outputs a product review, formatted in a very specific way in markdown. You can use this as a starting point to build purpose-built generative API functionality.
 
