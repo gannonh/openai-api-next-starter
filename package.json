@@ -1,10 +1,10 @@
 {
-  "name": "astrolabs",
-  "version": "1.0.0",
+  "name": "openai-gpt3-node-starter",
+  "version": "1.0.1",
   "author": "Gannon Hall",
-  "license": "Commercial",
-  "private": true,
-  "description": "OpenAI API stuff",
+  "license": "MIT",
+  "private": false,
+  "description": "OpenAI GPT-3 Node Starter Project",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
